@@ -435,9 +435,9 @@ function install() {
     echo -e "${LIGHT_BLUE}# install() step${NC}"
     echo ""
 
-    if [ -n "$PACMAN_MIRROR" ]; then
-        echo "Server=$PACMAN_MIRROR" > /etc/pacman.d/mirrorlist
-    fi
+    #if [ -n "$PACMAN_MIRROR" ]; then
+        #echo "Server=$PACMAN_MIRROR" > /etc/pacman.d/mirrorlist
+    #fi
     sed -i 's/#Color/Color/' /etc/pacman.conf
     sed -i 's/#TotalDownload/TotalDownload/' /etc/pacman.conf
 
