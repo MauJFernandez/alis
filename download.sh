@@ -25,6 +25,8 @@ wget https://raw.githubusercontent.com/MauJFernandez/alis/master/alis-recovery.s
 wget https://raw.githubusercontent.com/MauJFernandez/alis/master/alis-recovery-asciinema.sh
 wget https://raw.githubusercontent.com/MauJFernandez/alis/master/alis-recovery-reboot.sh
 
+wget https://raw.githubusercontent.com/MauJFernandez/alis/master/mirrorlist
+
 chmod +x alis.sh
 chmod +x alis-asciinema.sh
 chmod +x alis-reboot.sh
