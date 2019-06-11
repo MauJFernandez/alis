@@ -1,0 +1,6 @@
+Server = https://appuals.com/archlinux/$repo/os/$arch
+Server = http://archlinux.mirror.py/archlinux/$repo/os/$arch
+Server = http://mirror.archlinux.cl/$repo/os/$arch
+Server = http://mirror.metalgamer.eu/archlinux/$repo/os/$arch
+Server = http://archlinux.cu.be/$repo/os/$arch
+Server = https://mirrors.kernel.org/archlinux/$repo/os/$arch
