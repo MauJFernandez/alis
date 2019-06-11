@@ -34,3 +34,6 @@ chmod +x alis-reboot.sh
 chmod +x alis-recovery.sh
 chmod +x alis-recovery-asciinema.sh
 chmod +x alis-recovery-reboot.sh
+
+mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bkp
+cp mirrorlist /etc/pacman.d/
